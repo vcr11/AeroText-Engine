@@ -1,10 +1,10 @@
-# SpatialText Lab
+# AeroText Engine
 
 <div align="center">
 
-## 🚀 Production-Ready visionOS Spatial Text Input Prototype
+## 🚀 Advanced Spatial Text Input Engine for visionOS
 
-*Built for Apple's Spatial Text Input Team • Demonstrating Enterprise-Grade Spatial Computing*
+*Enterprise-Grade Spatial Computing • Built for Apple's Spatial Text Input Team*
 
 [![visionOS](https://img.shields.io/badge/visionOS-1.0+-blue.svg)](https://developer.apple.com/visionos/)
 [![Swift](https://img.shields.io/badge/Swift-5.9+-orange.svg)](https://swift.org)
@@ -334,10 +334,10 @@ sequenceDiagram
 ```swift
 // Package.swift
 let package = Package(
-    name: "SpatialTextLab",
+    name: "AeroText-Engine",
     platforms: [.visionOS(.v1)],
-    products: [.executable(name: "SpatialTextLab", targets: ["SpatialTextLab"])],
-    targets: [.executableTarget(name: "SpatialTextLab", dependencies: [])]
+    products: [.executable(name: "AeroText-Engine", targets: ["AeroText-Engine"])],
+    targets: [.executableTarget(name: "AeroText-Engine", dependencies: [])]
 )
 ```
 
@@ -380,8 +380,8 @@ let package = Package(
 ## 🚀 Getting Started
 
 ### Quick Start
-1. **Clone Repository**: `git clone <repository-url>`
-2. **Open in Xcode**: Double-click `SpatialTextLab.xcodeproj`
+1. **Clone Repository**: `git clone https://github.com/vcr11/AeroText-Engine.git`
+2. **Open in Xcode**: Double-click `AeroText-Engine.xcodeproj`
 3. **Select Target**: Choose Vision Pro device/simulator
 4. **Build & Run**: `Cmd + R` to launch the spatial experience
 

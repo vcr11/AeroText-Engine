@@ -4,22 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "SpatialTextLab",
+    name: "AeroText-Engine",
     platforms: [
         .visionOS(.v1)
     ],
     products: [
         .executable(
-            name: "SpatialTextLab",
-            targets: ["SpatialTextLab"]
+            name: "AeroText-Engine",
+            targets: ["AeroText-Engine"]
         )
     ],
     dependencies: [],
     targets: [
         .executableTarget(
-            name: "SpatialTextLab",
+            name: "AeroText-Engine",
             dependencies: [],
-            path: "Sources/SpatialTextLab"
+            path: "Sources/AeroText-Engine"
         )
     ]
 )

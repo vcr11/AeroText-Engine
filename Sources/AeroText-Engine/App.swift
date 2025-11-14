@@ -1,15 +1,15 @@
 //
 //  App.swift
-//  SpatialTextLab
+//  AeroText-Engine
 //
 //  Created by Apple Vision Pro Engineer
-//  Demonstrates advanced spatial text input for visionOS
+//  Advanced spatial text input engine for visionOS
 //
 
 import SwiftUI
 
 @main
-struct SpatialTextLabApp: App {
+struct AeroTextEngineApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
